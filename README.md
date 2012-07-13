@@ -18,8 +18,8 @@ $context = new KCommandContext(
 				'name' => 'jon doe',
 				'age' => '25'
 			),
-			'component' 	=> 'com_foo',
-			'type' 		=> 'bar',
+			'component' 	=> 'com_foo', //component identifier, references the component column in the templates table
+			'type' 		=> 'bar', //type identifier, references the type column in templates table
 			'recipients' 	=> array ( 'jon@doe.com' )
 		)
 	)
